@@ -16,7 +16,7 @@ rm -f /home/$USER/.thumbnails/normal/*.png > /dev/null 2>&1
 composer clear-cache -q > /dev/null 2>&1
 yarn cache clean --force > /dev/null 2>&1
 npm cache clean --force > /dev/null 2>&1
-docker rm $(docker ps -a -q) > /dev/null 2>&1
-docker rmi $(docker images -q) > /dev/null 2>&1
+docker rm -f $(docker ps -a -q) > /dev/null 2>&1
+docker rmi -f $(docker images -q) > /dev/null 2>&1
 echo "Cleanup done."
 
