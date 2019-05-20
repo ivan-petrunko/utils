@@ -12,6 +12,7 @@ rm -rf "/home/$USER/.config/google-chrome/Default/Service Worker/CacheStorage/"*
 rm -f "/home/$USER/.config/google-chrome/Default/Service Worker/ScriptCache/"* > /dev/null 2>&1
 rm -f "/home/$USER/.config/libreoffice/4/user/backup/"* > /dev/null 2>&1
 rm -f "/home/$USER/.local/share/Trash/files/"* > /dev/null 2>&1
+rm -f /home/$USER/.thumbnails/normal/*.png > /dev/null 2>&1
 composer clear-cache -q > /dev/null 2>&1
 yarn cache clean --force > /dev/null 2>&1
 npm cache clean --force > /dev/null 2>&1
