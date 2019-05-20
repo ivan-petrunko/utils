@@ -2,6 +2,7 @@
 rm -f /home/$USER/.cache/thumbnails/large/*.png > /dev/null 2>&1
 rm -f /home/$USER/.cache/thumbnails/normal/*.png > /dev/null 2>&1
 rm -f /home/$USER/.cache/mozilla/firefox/*.default/cache2/entries/* > /dev/null 2>&1
+rm -f "/home/$USER/.cache/google-chrome/Default/Code Cache/js/"* > /dev/null 2>&1
 rm -f "/home/$USER/.cache/google-chrome/Default/Cache/"* > /dev/null 2>&1
 rm -f "/home/$USER/.cache/google-chrome/Default/Media Cache/"* > /dev/null 2>&1
 rm -f "/home/$USER/.config/libreoffice/4/user/backup/"* > /dev/null 2>&1
