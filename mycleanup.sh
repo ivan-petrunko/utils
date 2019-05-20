@@ -5,6 +5,7 @@ rm -f /home/$USER/.cache/mozilla/firefox/*.default/cache2/entries/* > /dev/null 
 rm -f "/home/$USER/.cache/google-chrome/Default/Cache/"* > /dev/null 2>&1
 rm -f "/home/$USER/.cache/google-chrome/Default/Media Cache/"* > /dev/null 2>&1
 rm -f "/home/$USER/.config/libreoffice/4/user/backup/"* > /dev/null 2>&1
+rm -f "/home/$USER/.local/share/Trash/files/"* > /dev/null 2>&1
 composer clear-cache -q > /dev/null 2>&1
 yarn cache clean --force > /dev/null 2>&1
 npm cache clean --force > /dev/null 2>&1
